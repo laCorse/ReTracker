@@ -1,0 +1,35 @@
+============
+Args:Namespace(arch='resnet50', cuhk03_classic_split=False, cuhk03_labeled=False, dataset='market1501', eval_step=-1, evaluate=False, gamma=0.1, gpu_devices='0', height=256, htri_only=False, labelsmooth=False, lr=0.0002, margin=0.3, max_epoch=60, num_instances=4, optim='adam', print_freq=10, reranking=False, resume='', root='/home/qianchen/reid/data', save_dir='log', seed=1, split_id=0, start_epoch=0, start_eval=0, stepsize=20, test_batch=8, test_distance='global', train_batch=8, unaligned=False, use_cpu=False, use_metric_cuhk03=False, weight_decay=0.0005, width=128, workers=4)
+=============
+Currently using GPU 0
+=> Market1501 loaded
+Dataset statistics:
+  ------------------------------
+  subset   | # ids | # images
+  ------------------------------
+  train    |   751 |    12936
+  query    |   750 |     3368
+  gallery  |   751 |    19732
+  ------------------------------
+  total    |  1501 |    36036
+  ------------------------------
+Initializing model: resnet50
+Model size: 25.04683M
+Start Traing!
+Epoch: [1][10/375]	Time 0.155 (0.665)	Data_Time 0.020 (0.041)	Loss 9.1452 (8.9543)	CLoss 7.0889 (6.6963)	MLoss 2.0563 (2.2580)	
+Epoch: [1][20/375]	Time 0.155 (0.410)	Data_Time 0.020 (0.031)	Loss 8.2643 (8.8398)	CLoss 7.5644 (6.8350)	MLoss 0.6999 (2.0049)	
+Epoch: [1][30/375]	Time 0.155 (0.326)	Data_Time 0.021 (0.027)	Loss 9.6523 (8.9858)	CLoss 8.1022 (7.1384)	MLoss 1.5501 (1.8475)	
+Epoch: [1][40/375]	Time 0.155 (0.283)	Data_Time 0.020 (0.026)	Loss 10.7731 (9.2234)	CLoss 8.6428 (7.4557)	MLoss 2.1302 (1.7676)	
+Epoch: [1][50/375]	Time 0.156 (0.258)	Data_Time 0.021 (0.025)	Loss 11.5073 (9.3968)	CLoss 8.9552 (7.6954)	MLoss 2.5522 (1.7015)	
+Epoch: [1][60/375]	Time 0.155 (0.241)	Data_Time 0.021 (0.024)	Loss 9.7664 (9.4440)	CLoss 8.8229 (7.8407)	MLoss 0.9434 (1.6032)	
+Epoch: [1][70/375]	Time 0.155 (0.229)	Data_Time 0.021 (0.023)	Loss 9.7623 (9.5660)	CLoss 8.8238 (7.9822)	MLoss 0.9386 (1.5838)	
+Epoch: [1][80/375]	Time 0.155 (0.220)	Data_Time 0.020 (0.023)	Loss 8.7894 (9.6821)	CLoss 8.3419 (8.0706)	MLoss 0.4474 (1.6115)	
+Epoch: [1][90/375]	Time 0.155 (0.212)	Data_Time 0.021 (0.023)	Loss 11.6344 (9.7116)	CLoss 9.0572 (8.1546)	MLoss 2.5772 (1.5570)	
+Epoch: [1][100/375]	Time 0.155 (0.207)	Data_Time 0.020 (0.023)	Loss 10.0800 (9.7031)	CLoss 9.0378 (8.2301)	MLoss 1.0422 (1.4730)	
+Epoch: [1][110/375]	Time 0.155 (0.202)	Data_Time 0.021 (0.022)	Loss 9.2254 (9.7002)	CLoss 9.2235 (8.2948)	MLoss 0.0019 (1.4054)	
+Epoch: [1][120/375]	Time 0.155 (0.198)	Data_Time 0.020 (0.022)	Loss 9.7998 (9.7088)	CLoss 8.9393 (8.3459)	MLoss 0.8605 (1.3629)	
+Epoch: [1][130/375]	Time 0.156 (0.195)	Data_Time 0.020 (0.022)	Loss 9.9404 (9.7025)	CLoss 8.7960 (8.3909)	MLoss 1.1444 (1.3116)	
+Epoch: [1][140/375]	Time 0.156 (0.192)	Data_Time 0.020 (0.022)	Loss 8.8963 (9.6951)	CLoss 8.8963 (8.4285)	MLoss 0.0000 (1.2666)	
+Epoch: [1][150/375]	Time 0.157 (0.190)	Data_Time 0.020 (0.022)	Loss 9.4533 (9.6826)	CLoss 8.7890 (8.4578)	MLoss 0.6643 (1.2247)	
+Epoch: [1][160/375]	Time 0.156 (0.188)	Data_Time 0.021 (0.022)	Loss 11.2845 (9.6935)	CLoss 8.9365 (8.4843)	MLoss 2.3480 (1.2092)	
+Epoch: [1][170/375]	Time 0.155 (0.186)	Data_Time 0.021 (0.022)	Loss 9.0297 (9.6839)	CLoss 7.8802 (8.4843)	MLoss 1.1495 (1.1995)	
